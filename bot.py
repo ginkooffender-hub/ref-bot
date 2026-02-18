@@ -4,7 +4,7 @@ import requests
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "8043005903:AAFhvV-I7GPkWs5hVFlHYJVXy-6Rvx0QXA0"
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 
 bot = Bot(token=TOKEN)
